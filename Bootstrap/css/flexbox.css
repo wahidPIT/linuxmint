@@ -1,0 +1,18 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border:1px solid rgb(70, 70, 199);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px auto;
+    flex-direction: row-reverse;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px  solid black;
+
+}

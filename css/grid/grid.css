@@ -1,0 +1,171 @@
+body{
+    color: rgb(1, 11, 19);
+    padding: 0;
+}
+
+h2,p{
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+/* _______COLUMNS AND ROWS_________ */
+/* Grid templat columns /rows */
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 100px 50px;
+    grid-template-rows: 150px 100px auto;
+}
+
+.grid{
+    background-color: rgb(57, 98, 100);
+    /* biar text ditengah box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bikin warna beda untuk angka genap */
+.grid:nth-child(even){
+    background-color: antiquewhite;
+}
+
+/* explicit , impliciit grid */
+
+.container2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 250px ;
+    grid-template-rows: 50px 100px;
+    /* menetukan ukuran impplicit grid
+    (yang gak diatur secara explicit ) */
+    grid-auto-rows: 100px;
+}
+
+.grid2{
+    background-color: rgb(55, 102, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2:nth-child(even){
+    background-color: antiquewhite;}
+
+/* bikin kolom implisit */
+
+.container3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 250px ;
+    grid-template-rows: 50px 100px;
+    /* KE-3:BIKIN KOLOM IMPLISIT */
+    grid-auto-flow:column;
+
+}
+
+.grid3{
+    background-color: rgb(52, 102, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3:nth-child(even){
+        background-color: antiquewhite;}
+
+/* grid values : kasih nilai dalam grid */
+
+.container4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 200px;
+    /* cukup pake gtc  */
+
+}
+
+.grid4{
+    background-color: rgb(52, 102, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid4:nth-child(even){
+        background-color: antiquewhite;
+}
+
+        
+        
+ /* ____ SPECIAL FUNCTION DAN KEYWORD  _____ */
+/* 1.repeat() */
+    
+.bagian2{
+    text-align: center;
+
+    /* padding: 60px;
+    margin: 300px; */
+}
+.container5{
+    width: 100%;
+    display: grid;
+    /* bikin 4 kolom dengan ukuran 2fr  */
+    grid-template-columns: repeat( 4,2fr);
+}
+
+.grid5{
+    background-color: rgb(52, 102, 105);
+    /* biar text ditengah box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid5:nth-child(even){
+     background-color: antiquewhite;
+}
+
+
+/*2.min-content dan max content */
+
+
+h3{
+    text-align: center;
+}
+
+.container6{
+    width: 100%;
+    display: grid;
+}
+
+.grid6{
+    background-color: rgb(52, 102, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid6:nth-child(even){
+        background-color: antiquewhite;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*         
+        .image-container{
+            border: 1px solid black;
+            margin: 80px;
+            aspect-ratio:  100/100;
+            background-color: beige;
+        } */

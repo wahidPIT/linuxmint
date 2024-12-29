@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+    /* padding-bottom: 200px; */
+}
+
+.judul{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(3, 79, 83);
+    line-height: 2;
+}
+
+/* PROPERTY */
+
+.property{
+    background-color: rgb(3, 28, 37);
+    padding: 30px;
+    line-height: 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align:center ;
+    color: black;
+    padding: 20px;
+}
+
+.dis{
+    flex: 1.2;
+}
+
+.dis1{
+    background-color: rgb(14, 13, 13);
+    padding: 5px;
+}
+
+.dis2{
+    background-color: rgb(53, 41, 26);
+}
+
+.dis3{
+    background-color: rgb(86, 99, 29);
+}
+
+.dis4{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.di{
+    flex: 1;
+    margin-left: 50px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.disp{
+    display: flex;
+    /* margin: 40px; */
+    justify-content: space-around;
+    flex: 2;
+}
+
+.disp1{
+    background-color: rgb(14, 13, 13);
+    padding: 5px;
+}
+
+.disp2{
+    background-color: rgb(53, 41, 26);
+}
+
+.disp3{
+    background-color: rgb(86, 99, 29);
+}
+
+.disp4{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+/* FLEX-DIRECT/ARAH URUTAN BOX */
+
+.directbox{
+    background-color: rgb(9, 35, 60);
+    /* width: 800px; */
+    height: 200px;
+}
+
+.dir{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dir1{
+    background-color: rgb(74, 57, 24);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.dir2{
+    background-color: darkolivegreen;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.dir3{
+    background-color: blanchedalmond;
+    color: black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}

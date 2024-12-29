@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    background-color: rgb(226, 235, 201);
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    height: 200px;
+    grid-template-rows: 2fr 3fr;
+}
+
+.isi{
+    border: 0.5px solid black;
+    margin: 20px;
+}
+
